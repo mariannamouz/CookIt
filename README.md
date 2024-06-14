@@ -12,3 +12,7 @@ Thse users can :
 9. view recipes & questions uploaded from the users he follows
 10. view followers and following
 11. edit their profile (picture , username and password)
+
+Creators :
+Konstantinos Mitsanas 
+Maria-Ioanna Mouzouraki
