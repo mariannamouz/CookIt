@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">CookIt</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <string name="title_activity_registration">RegistrationActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_edit_profile_page">EditProfilePage</string>
+    <!-- row.xml -> imagebutton -> contentDescription -->
+    <string name="more_options">More Options</string>
+    <string name="title_activity_post_liked_by">PostLikedByActivity</string>
+    <string name="title_activity_post_details">PostDetailsActivity</string>
+    <string name="title_activity_model_users">ModelUsers</string>
+    <string name="send_comment_description">Send Comment</string>
+    <string name="morebtn_description">More</string>
+    <string name="title_activity_chat">ChatActivity</string>
+    <string name="title_activity_users_follow">UsersFollowActivity</string>
+    <string name="_0_comments">0 Comments</string>
+    <string name="unknown_time">Unknown Time</string>
+    <string name="title_activity_favorites">FavoritesActivity</string>
+    <string name="title_activity_post_questions">PostQuestionsActivity</string>
+
+</resources>

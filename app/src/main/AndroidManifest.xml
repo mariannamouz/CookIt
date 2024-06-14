@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Style.CookIt"
+        tools:targetApi="31">
+        <activity
+            android:name=".QuestionDetailsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_post_questions"
+            android:theme="@style/Style.CookIt" />
+        <activity
+            android:name=".UsersFollowActivity"
+            android:exported="false"
+            android:label="@string/title_activity_users_follow"
+            android:theme="@style/Style.CookIt" />
+        <activity
+            android:name=".OtherUserProfileActivity"
+            android:exported="false"
+            android:label="User Profile"
+            android:theme="@style/Style.CookIt" />
+        <activity
+            android:name=".ChatActivity"
+            android:exported="false"
+            android:label="@string/title_activity_chat"
+            android:theme="@style/Style.CookIt" />
+        <activity
+            android:name=".ModelUsers"
+            android:exported="false"
+            android:label="@string/title_activity_model_users"
+            android:theme="@style/Style.CookIt" />
+        <activity
+            android:name=".PostLikedByActivity"
+            android:exported="false"
+            android:label="@string/title_activity_post_liked_by"
+            android:theme="@style/Style.CookIt" />
+        <activity
+            android:name=".PostDetailsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_post_details"
+            android:theme="@style/Style.CookIt" />
+        <activity
+            android:name=".EditProfilePage"
+            android:exported="false"
+            android:label="@string/title_activity_edit_profile_page"
+            android:theme="@style/Style.CookIt" />
+        <activity
+            android:name=".DashboardActivity"
+            android:exported="false"
+            android:label="@string/title_activity_dashboard"
+            android:theme="@style/Style.CookIt" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login"
+            android:theme="@style/Style.CookIt" />
+        <activity
+            android:name=".RegistrationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_registration"
+            android:theme="@style/Style.CookIt" /> <!-- Define the launcher activity -->
+        <activity
+            android:name=".AddBlogsActivity"
+            android:exported="false"
+            android:label="AddBlogsActivity"
+            android:theme="@style/Style.CookIt" />
+        <activity
+            android:name=".AddQuestionActivity"
+            android:exported="false"
+            android:label="AddQuestionActivity"
+            android:theme="@style/Style.CookIt" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:label="CookIt"
+            android:theme="@style/Style.CookIt">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
